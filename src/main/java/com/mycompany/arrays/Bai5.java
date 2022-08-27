@@ -11,6 +11,6 @@ package com.mycompany.arrays;
 public class Bai5 {
 
     public static void main(String[] args) {
-
+        System.out.println("Bai5");
     }
 }

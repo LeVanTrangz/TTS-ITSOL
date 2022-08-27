@@ -14,15 +14,15 @@ public class Bai1b {
 
     public static void main(String[] args) {
         int ms, i;
-        float Sum = 0;
+        float sum = 0;
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Nhap vao 1 so n de lam mau so: ");
         ms = sc.nextInt();
-
+        
         for (i = 1; i <= ms; i++) {
-            Sum += (float) 1 / i;
+            sum += (float) 1 / i;
         }
-        System.out.print("Tong la: " + Sum);
+        System.out.print("Tong la: " + sum);
     }
 }
